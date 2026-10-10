@@ -1,0 +1,82 @@
+{
+  "identifier" : "4C0E3A1D",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "8E1F2B3C",
+      "localizations" : [
+
+      ],
+      "name" : "Decode Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "4.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6740000001",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlimited decodes and the full read.",
+              "displayName" : "Weekly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.example.decode.pro.weekly",
+          "recurringSubscriptionPeriod" : "P1W",
+          "referenceName" : "Decode Pro Weekly",
+          "subscriptionGroupID" : "8E1F2B3C",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "29.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6740000002",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlimited decodes and the full read.",
+              "displayName" : "Yearly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.example.decode.pro.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Decode Pro Yearly",
+          "subscriptionGroupID" : "8E1F2B3C",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 2,
+    "minor" : 0
+  }
+}
