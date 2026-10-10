@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Decode",
+    "slug": "decode",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.example.decode",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Decode reads the chat screenshots you pick so it can analyze them.",
+        "NSPhotoLibraryAddUsageDescription": "Decode saves your result cards to your photo library."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0A0612",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sharing",
+      "expo-font"
+    ],
+    "scheme": "decode",
+    "backgroundColor": "#0A0612",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0612"
+    },
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
